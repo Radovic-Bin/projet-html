@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>boutique</title>
+</head>
+<body>
+    <!----============ Entête =================-->
+    <header>
+        
+            <h1>Boutique Demo</h1>
+    
+        <div>
+            <a href="#hero">Accueil</a>
+        </div>
+        <div>
+             <a href="#catalogue">Produits</a>
+        </div>
+        <div>
+            <a href="#panier">Panier</a>
+        </div>
+        <div>
+            <a href="connexion.html" id="pageconnect">Connexion</a>
+        </div>
+
+    </header>
+    <main>
+        <section>
+             <h3>Boutique Demo</h3>
+             <p>bienvenu dans un monde de rève</p>
+        </section>
+        <!----============ filtrer les produits =================-->
+        <section id="filtre">
+            <fieldset>
+                    <legend>recherche de produits</legend>
+                    <input type="text" id="nomProduit" placeholder="entrer le nom du produit"><br>
+                    <button id="recherche">search</button>
+
+                <select name="catégorie" id="categorie">
+                    <option value="categorie">catégorie</option>
+                </select>
+
+                <select name="prix" id="tri">
+                    <option value="prix">trier par prix</option>
+                    <option value="bas">bas prix</option>
+                    <option value="haut">haut prix</option>
+                 </select>
+            </fieldset>
+
+        </section>
+        <!----============ catalogue des produits =================--->
+        <section id="catalogue">
+            <h2>catalogue</h2>
+            <div id="charge_produit">
+                <ul>
+
+                </ul>
+            </div>
+        </section>
+        <!----============ panier =================--->
+        <section id="panier">
+            <h2>Panier</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Article</th>
+                        <th>Prix unitaire</th>
+                        <th>Quantité</th>
+                        <th>Sous-total</th>
+                    </tr>
+                </thead>
+                <tbody id="product-table-body">
+
+                </tbody>
+            </table>
+            <button>vider</button>
+        </section>
+        <section id="infos">
+
+            <h2>Informations</h2>
+            
+                <h3>Paiement</h3>
+                <p>Paiement sécurisé par Mobile Money.</p>
+    
+                <h3>Contact</h3>
+                <p>Email : contact@boutique-demo.com</p>
+        </section>
+    </main>
+    <footer>
+             <p>
+            © 2026 Boutique Demo - Tous droits réservés
+            </p>
+    </footer>
+    <script src="shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+[
+    {
+            "id": "user1",
+            "nom": "Rim Wonderland",
+            "email": "rim.wonderland@gmail.com",
+            "mot_de_passe": "rimwonder123" 
+        },
+
+        {
+            "id": "user2",
+            "nom": "Mendel Margo",
+            "email": "margo@gmail.com",
+            "mot_de_passe": "magot123"
+        },
+        
+        {
+            "id": "user3",
+            "nom": "Francky Dupont",
+            "email": "francky.dupont@gmail.com",
+            "mot_de_passe": "franckydupont123"
+        },
+        
+        {
+            "id": "user4",
+            "nom": "Charlie Doe",
+            "email": "charlie.doe@gmail.com",
+            "mot_de_passe": "charliedoe123"
+        },
+        
+        {
+            "id": "user5",
+            "nom": "Alice Smith",
+            "email": "alice.smith@gmail.com",
+            "mot_de_passe": "alicesmith123"
+        }
+]

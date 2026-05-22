@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire de connexion</title>
+</head>
+<body style="background-color: #19191b; font-family: Arial, sans-serif; font-size: 25px;">
+    <fieldset style="width: 400px; margin: 100px auto; padding: 20px; background-color: #211f1f; color: white; border-radius: 10px;">
+        <legend>connexion</legend>
+        <form action="traitement.php" method="post">
+
+                <fieldset style="border-radius: 5px; padding: 10px;">
+                    <legend>email</legend>
+                    <input type="email" name="email" id="email" placeholder="entrer votre email" required style="width: 100%; box-sizing: border-box;"><br>
+                </fieldset>
+                <fieldset style="border-radius: 5px; padding: 10px;">
+                    <legend>mot de passe</legend>
+                    <input type="password" name="password" id="px" placeholder="entrer votre mot de passe" required style="width: 100%; box-sizing: border-box;"><br>
+                </fieldset>
+
+            <input type="submit" id="loginbutton" value="se connecter" style="background-color: #31a629; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 25px;">
+            <input type="reset" value="annuler" style="background-color: brown; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 25px;">
+        </form>
+
+    </fieldset>
+    <script src="auth.js"></script>
+</body>
+</html>
