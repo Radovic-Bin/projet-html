@@ -3,175 +3,175 @@
         "id": "prod1",
         "nom": "T-shirt rouge",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt.jpg"
     },
     {
         "id": "prod2",
         "nom": "T-shirt bleu",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_bleu.jpg"
     },
     {
         "id": "prod3",
         "nom": "T-shirt noir",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_noir.jpg"
     },
     {
         "id": "prod4",
         "nom": "T-shirt blanc",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_blanc.jpg"
     },
     {
         "id": "prod5",
         "nom": "T-shirt vert",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_vert.jpg"
     },
     {
         "id": "prod6",
         "nom": "T-shirt jaune",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_jaune.jpg"
     },
     {
         "id": "prod7",
         "nom": "T-shirt violet",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_violet.jpg"
     },
     {
         "id": "prod8",
         "nom": "T-shirt orange",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_orange.jpg"
     },
     {
         "id": "prod9",
         "nom": "T-shirt gris",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_gris.jpg"
     },
     {
         "id": "prod10",
         "nom": "T-shirt rose",
         "catégorie": "vêtements",
-        "prix": 19.99,
+        "prix": 1500,
         "image": "tshirt_rose.jpg"
     },
      {
         "id": "prod11",
         "nom": "chaine en or",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 20000,
         "image": "chaine_or.jpg"
     },
      {
         "id": "prod12",
         "nom": "chaine en argent",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 10000,
         "image": "chaine_argent.jpg"
     },
      {
         "id": "prod13",
         "nom": "montre_en_or",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 55000,
         "image": "montre_or.jpg"
     },
      {
         "id": "prod14",
         "nom": "lunette de soleil",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 1000,
         "image": "lunette_soleil.jpg"
     },
      {
         "id": "prod15",
         "nom": "bague en diamant",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 876000,
         "image": "bague_diamant.jpg"
     },
      {
         "id": "prod16",
         "nom": "bague en argent",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 55600,
         "image": "bague_argent.jpg"
     },
      {
         "id": "prod17",
         "nom": "bague en cuivre",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 11500,
         "image": "bague_cuivre.jpg"
     },
      {
         "id": "prod18",
         "nom": "bague en emraude",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 350000,
         "image": "bague_emeraude.jpg"
     },
      {
         "id": "prod19",
         "nom": "bracelet en argent",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 25000,
         "image": "bracelet_argent.jpg"
     },
      {
         "id": "prod20",
         "nom": "boucles d'oreilles",
         "catégorie": "accessoires",
-        "prix": 19.99,
+        "prix": 15000,
         "image": "boucle_oreille.jpg"
     },
      {
         "id": "prod21",
-        "nom": "samsung galaxy s21",
+        "nom": "samsung_galaxy_s21",
         "catégorie": "electronique",
-        "prix": 19.99,
+        "prix": 250000,
         "image": "s21.jpg"
     },
      {
         "id": "prod22",
-        "nom": "iphone 12",
+        "nom": "iphone_12",
         "catégorie": "electronique",
-        "prix": 19.99,
+        "prix": 100000,
         "image": "iphone12.jpg"
     },
      {
         "id": "prod23",
-        "nom": "tecno camon 17",
+        "nom": "tecno_camon_17",
         "catégorie": "electronique",
-        "prix": 19.99,
+        "prix": 185000,
         "image": "camon17.jpg"
     },
      {
         "id": "prod24",
-        "nom": "google pixel 5",
+        "nom": "google_pixel_5",
         "catégorie": "electronique",
-        "prix": 19.99,
+        "prix": 250000,
         "image": "pixel5.jpg"
     },
      {
         "id": "prod25",
-        "nom": "huawei p40",
+        "nom": "huawei_p40",
         "catégorie": "electronique",
-        "prix": 19.99,
+        "prix": 190000,
         "image": "p40.jpg"
     }
 

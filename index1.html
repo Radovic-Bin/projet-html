@@ -9,34 +9,30 @@
 <body>
     <!----============ Entête =================-->
     <header>
-        
-            <h1>Boutique Demo</h1>
-    
-        <div>
+           <div id="marque"><h1>Boutique Demo</h1></div> 
+        <nav>
             <a href="#hero">Accueil</a>
-        </div>
-        <div>
-             <a href="#catalogue">Produits</a>
-        </div>
-        <div>
+            <a href="#catalogue">Produits</a>
             <a href="#panier">Panier</a>
-        </div>
-        <div>
             <a href="connexion.html" id="pageconnect">Connexion</a>
-        </div>
-
+        </nav>
     </header>
     <main>
         <section>
              <h3>Boutique Demo</h3>
-             <p>bienvenu dans un monde de rève</p>
+             <p>Bienvenu dans un monde de rêve, où la commodité rencontre la diversité. Découvrez une vaste sélection de produits, 
+                des dernières tendances de la mode aux gadgets technologiques innovants, le tout à portée de clic.<br> 
+                Profitez d'une expérience d'achat fluide et sécurisée, 
+                avec des offres exclusives et un service client dédié pour rendre votre shopping en ligne agréable et satisfaisant. 
+             </p>
+                
+            
         </section>
         <!----============ filtrer les produits =================-->
         <section id="filtre">
             <fieldset>
                     <legend>recherche de produits</legend>
-                    <input type="text" id="nomProduit" placeholder="entrer le nom du produit"><br>
-                    <button id="recherche">search</button>
+                    <input type="text" id="recherchenomProduit" placeholder="entrer le nom du produit"><br>
 
                 <select name="catégorie" id="categorie">
                     <option value="categorie">catégorie</option>
@@ -53,16 +49,14 @@
         <!----============ catalogue des produits =================--->
         <section id="catalogue">
             <h2>catalogue</h2>
-            <div id="charge_produit">
-                <ul>
-
-                </ul>
-            </div>
+            <div id="produits-container" class="grille-produits"></div>
+            
         </section>
         <!----============ panier =================--->
         <section id="panier">
             <h2>Panier</h2>
-            <table>
+
+            <table id="product-table-body">
                 <thead>
                     <tr>
                         <th>Article</th>
@@ -71,22 +65,13 @@
                         <th>Sous-total</th>
                     </tr>
                 </thead>
-                <tbody id="product-table-body">
+                <tbody>
 
                 </tbody>
             </table>
-            <button>vider</button>
+            <button id="clean">vider</button>
         </section>
-        <section id="infos">
 
-            <h2>Informations</h2>
-            
-                <h3>Paiement</h3>
-                <p>Paiement sécurisé par Mobile Money.</p>
-    
-                <h3>Contact</h3>
-                <p>Email : contact@boutique-demo.com</p>
-        </section>
     </main>
     <footer>
              <p>
